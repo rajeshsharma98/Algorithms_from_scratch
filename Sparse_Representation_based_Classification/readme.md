@@ -1,11 +1,8 @@
-# Sparse Representation based Classification
+# Sparse Representation based Classification  
+  
+A classification  approach  is  presented  and  shown  to  be  effective  in many face recognition applications. 
+Wright et al.  proposed this method in 2009 and called it Sparse Representation-based Classification(SRC) and reportedinteresting results 
+in automatic face recognition application. As name suggests sparse matrices are used for the purpose.  
 
-The idea of incorporating CS for classification purposes was developed in 2009
-for the first time in face recognition application. In this study, Wright et al.
-mapped the classification problem into a CS problem using the basic equation y= Ax
-and called it Sparse Representation-based Classification (SRC). They also reported
-interesting results on face recognition application which were outstanding in both
-recognition rates and robustness to noise when compared to other face recognition
-methods. Since then, SRC was used in different applications and moreover, lots of
-supplement algorithms were developed and published on top of the original SRC
-method. This code implements SRC from scratch using Lasso as sparse signal generator. And implement on 5 datasets of UCI.
+## The main idea  
+SRC is derived from the linear algebra  'subspaces and basis vectors'. Vector in a subspace an be represented as a linear combination of basis vector of the same subspace. Similarly, classes are assumed to be divided into different subspaces and a particular sample from a specific class can be represented as a linear combination of the other samples from the same class.
